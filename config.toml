@@ -1,0 +1,20 @@
+theme = "onedark"
+
+
+# SEE: https://docs.helix-editor.com/editor.html
+[editor]
+shell = ["zsh", "-c"]
+line-number = "relative"
+rulers = [120]
+bufferline = "multiple"
+auto-save = true
+#true-color = true
+#mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
