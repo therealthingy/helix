@@ -1,14 +1,16 @@
 theme = "onedark"
 
 
-# SEE: https://docs.helix-editor.com/editor.html
+# REFERENCE: https://docs.helix-editor.com/editor.html
 [editor]
+# required, otherwise set `theme` won't work in Ubuntu
+true-color = true
+
 shell = ["zsh", "-c"]
 line-number = "relative"
 rulers = [120]
 bufferline = "multiple"
 auto-save = true
-#true-color = true
 #mouse = false
 
 [editor.cursor-shape]
