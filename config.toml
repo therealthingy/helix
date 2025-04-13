@@ -20,3 +20,7 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.inline-diagnostics]       # SEE: https://github.com/helix-editor/helix/pull/6417
+cursor-line = "hint"
+other-lines = "error"
